@@ -73,5 +73,6 @@ class _SuraDetailState extends State<SuraDetail> {
     List<String> Lines = suras.split('\n');
     Sura = Lines;
     setState(() {});
+    //this is
   }
 }
