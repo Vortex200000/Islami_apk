@@ -34,7 +34,7 @@ class _SuraDetailState extends State<SuraDetail> {
         body: Padding(
           padding: const EdgeInsets.all(12.0),
           child: Card(
-            elevation: 12,
+            elevation: 18,
             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18) , side: BorderSide(color: MyThemesData.brimaryColour , width: 2)),
             child: Padding(
               padding: const EdgeInsets.all(8.0),
