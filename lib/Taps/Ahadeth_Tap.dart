@@ -6,7 +6,11 @@ class AhadethTap extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.purple,
+            body: Column(
+              children: [
+                Image.asset('assets/images/hadeth_logo.png'),
+              ],
+            ),
     );
   }
 }

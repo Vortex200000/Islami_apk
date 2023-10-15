@@ -38,7 +38,14 @@ class _SuraDetailState extends State<SuraDetail> {
             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18) , side: BorderSide(color: MyThemesData.brimaryColour , width: 2)),
             child: Padding(
               padding: const EdgeInsets.all(8.0),
-              child: ListView.separated(
+              child: Sura.isEmpty?Center(
+                child: CircularProgressIndicator(
+                      color: MyThemesData.brimaryColour,
+
+                ),
+              ):
+
+              ListView.separated(
                 separatorBuilder: (context, index) {
                   return Divider(
                     thickness: 2,
