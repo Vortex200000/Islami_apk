@@ -72,6 +72,7 @@ class _SuraDetailState extends State<SuraDetail> {
         await rootBundle.loadString('assets/SuraQurann/${index + 1}.txt');
     List<String> Lines = suras.split('\n');
     Sura = Lines;
+
     setState(() {});
     //this is
   }
