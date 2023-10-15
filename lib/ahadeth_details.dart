@@ -17,6 +17,7 @@ class AhadethDetails extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           title: Text(
+
             'islami',
             style: Theme.of(context).textTheme.bodyLarge,
           ),
