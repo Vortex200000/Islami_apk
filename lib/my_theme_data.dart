@@ -23,7 +23,7 @@ class MyThemesData {
       scaffoldBackgroundColor: Colors.transparent,
       appBarTheme: AppBarTheme(
         color: Colors.transparent,
-        iconTheme: IconThemeData(color: brimaryColour, size: 40),
+        iconTheme: IconThemeData(color: brimaryColour, size: 20),
         elevation: 0.0,
         centerTitle: true,
       ),

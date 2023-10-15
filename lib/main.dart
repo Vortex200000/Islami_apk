@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:islami_part1/Splash_Screen.dart';
 import 'package:islami_part1/SuraDetails.dart';
+import 'package:islami_part1/ahadeth_details.dart';
 import 'package:islami_part1/home.dart';
 import 'package:islami_part1/my_theme_data.dart';
 
@@ -25,6 +26,7 @@ class Myapp extends StatelessWidget {
         Home.RouteName : (context) => Home(),
         SuraDetail.routName:(context) => SuraDetail(),
         'splash':(context) => Splash(),
+        AhadethDetails.routeName:(context) => AhadethDetails(),
       },
       theme: MyThemesData.lightTheme,
       darkTheme: MyThemesData.darkTheme,
