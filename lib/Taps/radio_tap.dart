@@ -6,7 +6,11 @@ class RadioTap extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      children: [Image.asset('assets/images/radio_image.png')],
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Image.asset("assets/images/radio_image.png"),
+        Text('Qurann iza3a')
+      ],
     );
   }
 }
