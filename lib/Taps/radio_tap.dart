@@ -5,8 +5,8 @@ class RadioTap extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.green,
+    return Column(
+      children: [Image.asset('assets/images/radio_image.png')],
     );
   }
 }
