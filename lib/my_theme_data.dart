@@ -12,7 +12,7 @@ class MyThemesData {
         bodyMedium: GoogleFonts.elMessiri(
           fontSize: 25,
           fontWeight: FontWeight.w700,
-          color: Color(0xFFFFFF),
+          color: Color(0xff242424),
         ),
         bodyLarge: GoogleFonts.elMessiri(
           fontSize: 30,

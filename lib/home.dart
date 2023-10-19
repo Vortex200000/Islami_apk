@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:islami_part1/Taps/Ahadeth_Tap.dart';
 import 'package:islami_part1/Taps/Quran_Tap.dart';
 import 'package:islami_part1/Taps/Sepha_tap.dart';
@@ -31,8 +31,9 @@ class _HomeState extends State<Home> {
       Scaffold(
     appBar: AppBar(
       elevation: 0,
-      title: Text('Islami', style: Theme.of(context).textTheme.bodyLarge),
-    ),
+          title: Text(AppLocalizations.of(context)!.appTitle,
+              style: Theme.of(context).textTheme.bodyLarge),
+        ),
 
     bottomNavigationBar: BottomNavigationBar(
   currentIndex: index,
